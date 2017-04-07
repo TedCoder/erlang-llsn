@@ -1,7 +1,7 @@
 erlang-LLSN
 ======
 
-[![GitHub version](https://badge.fury.io/gh/allyst%2Ferlang-llsn.svg)](https://badge.fury.io/gh/allyst%2Ferlang-llsn)
+[![GitHub version](https://badge.fury.io/gh/allyst%2Ferlang-llsn.svg)](https://github.com/allyst/erlang-llsn/releases)
 
 This is Erlang implementation of LLSN binary format.
 Here is specifiaction: http://allyst.org/opensource/llsn/
