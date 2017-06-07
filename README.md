@@ -56,7 +56,7 @@ Basics
 
 Extended features of data encoding
 -----------------------
-###Tree-like data
+#### Tree-like data
 ...
 
 C-example of tree like data structure
@@ -87,7 +87,7 @@ In LLSN you have to use  LLSN_TYPE_POINTER.
 ```
 
 
-###Data framing
+#### Data framing
 
 ...
 
@@ -126,14 +126,14 @@ demoframe() ->
     Bin  = receive_frame(<<>>),
 ```
 
-###Decode partitioned data
+#### Decode partitioned data
 
 It's able to decode part of encoded data starting from the first frame.
 
 ```Erlang
     case decode(Bin) of
         {parted, State1} ->
-            % itsn't entired packet
+            % part of the packet
             ...
         Packet ->
             % complete packet
